@@ -10,3 +10,5 @@ To use this code, you need to install Fiji and activate the following update sit
 
 ## Usage
 Open the file Multiplex_Tissue_Colocalization.ijm in Fiji and press run. The following 
+
+![image](https://github.com/user-attachments/assets/2832e518-ee58-4904-8900-78f681f94e07)
