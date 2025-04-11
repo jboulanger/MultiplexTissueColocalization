@@ -1231,7 +1231,7 @@ function createTestImage() {
 	run("Select None");
 	run("Gaussian Blur...", "sigma=2 stack");
 	Stack.getStatistics(voxelCount, mean, min, max, stdDev);
-	//run("Add Specified Noise...", "standard="+0.001*max+" stack");
+	run("Add Specified Noise...", "standard="+0.001*max+" stack");
 
 	for (c = 1; c <= 4; c++) {
 		Stack.setChannel(c);
