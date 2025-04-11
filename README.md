@@ -9,7 +9,10 @@ In brief, the macro's workflow begins by employing the pre-trained Stardist neur
 For each segmented cellular region and within each channel, the median fluorescence intensity is measured. Cells are then classified as positive using their median intensity compared against a defined global threshold for each marker. Subsequently, the spatial distribution of cells expressing various combinations of these markers is computationally mapped onto the image. For example, the macro identifies and maps cells exhibiting the following marker profiles: Cy3-positive and Cy5-negative, Cy3-negative and Cy5-positive, and Cy3 and Cy5 double-positive. By mapping these marker combinations, the macro enables the computation of a distance transform. This allows for the recording of the distance of a designated reference cell population (e.g., FITC-positive cells) to each of the other identified cell populations. The macro outputs the average distance of the reference cell population to each target cell population, and this value can be normalized by the total area of the analyzed sample.
 
 A synthetic example for the problem would look the following image:
-![image](assets/image.jpg)
+
+<p align="center">
+<img src="assets/image.jpg" width="100px"/>
+</p>
 
 
 ## Installation
